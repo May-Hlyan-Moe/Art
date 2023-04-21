@@ -10,7 +10,6 @@
         body {background-color: #feffde;}
 
         h2 {color: #35b35d;
-            padding: 15px;
             text-align: center;
             font-size: 30px;
         }
@@ -18,7 +17,7 @@
         h1 {color: #ff74b7;
             margin: 2 auto;
             text-align: center;
-        font-size: 40px;}
+            font-size: 40px;}
 
         img {display: block;
             max-width: 100%;
@@ -36,9 +35,7 @@
         button { background-color: #4ee7af;
                 color: rgb(13, 60, 13);
                 max-width: 100%;
-                display: block;
-                margin: 20px auto;
-                padding: 25px;
+                padding: 20px;
                 border: none;
                 border-radius: 30px;
                 font-size: 20px;
@@ -48,25 +45,42 @@
         button:hover { background-color: #ffa5a0;
                         cursor: pointer;
                         opacity: 0.9;}
+        
+        #close {
+            text-align: center;
+        }
 
-        div { color: rgb(245, 194, 63);
+        span { color: rgb(245, 194, 63);
                 font-size: 25px;
-                text-align: center;
-                font-style: bold;
                 font-family: Arial, Helvetica, sans-serif;
-                max-width: 100%;
+            }
 
-                }
-
-        span {
+        footer {
                 text-align: right;
                 color: rgb(52, 97, 52);
                 font-family: monospace;
-                font-size: 20px;}
+                font-size: 20px;
+            }
 
         .code {
+            text-align: right;
             color: rgb(52, 97, 52);
                 font-family: monospace;
+        }
+
+        
+
+        @media screen {
+            span { color: rgb(245, 194, 63);
+                font-size: 20px;
+                text-align: center;
+                margin: auto;
+            }
+
+            button { 
+                padding: 10px;
+                font-size: 15px;
+                }
         }
      
     </style>
@@ -106,33 +120,30 @@
         </strong>
     </p>
 
+    <div id="close">
+        <span>
+            <strong>
+                Want to get close to Doodle ??? 🤗👉
+            </strong>
+        </span>   
+        
 
-    <div>
-        <strong>
-            Want to get close to Doodle ??? 🤗👇
-        </strong>
-       
+        <button class="try-button">
+            <strong>
+                Try Doodling
+            </strong>
+        </button>
     </div>
 
-    
-
-
-
-    <button class="try-button">
-        <strong>
-            Try Doodling
-        </strong>
-    </button>
-
     <br>
-    <br>
+    <br />
 
-    <span>
+    <footer>
         <a href="https://github.com/May-Hlyan-Moe/Art" class="code">
             open-sourced code 
         </a>
         by May Hlyan Moe
-    </span>
+    </footer>
 
     <script>
         function tryDoodling ()
