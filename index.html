@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)file:///home/moe/Documents/finalprojectbasic.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art???</title>
+    <style> 
+        body {background-color: #feffcc;}
+
+        h2 {color: #72d090;
+            margin: 2 auto;
+            text-align: center;
+        }
+
+        h1 {color: #fb93c6;
+            margin: 2 auto;
+            text-align: center;}
+
+        img {display: block;
+            max-width: 100%;
+            margin: 0 auto;}
+
+        p {color: #4fcdff;
+            font-family: Sans-serif;}
+
+        a {font-family: Sans-serif;
+            color: #ff95be;}
+
+        button { background-color: #bae6d6;
+                color: green;
+                max-width: 100%;
+                display: block;
+                margin: auto;
+                padding: 25px;
+                border: none;
+                border-radius: 30px;
+                font-size: 18px;
+                font-family: Sans-serif;
+                font-style: italic;}
+
+        button:hover { background-color: #f6837d;
+                        cursor: pointer;
+                        opacity: 0.9;}
+
+        div { color: rgb(243, 200, 91);
+                font-size: larger;
+                text-align: center;
+                font-style: bold;
+                font-family: Arial, Helvetica, sans-serif;
+                max-width: 100%;
+
+                }
+
+        span {margin: 0 auto;
+                text-align: center;
+                text-decoration: underline;
+                color: rgb(46, 125, 46);
+                font-family: monospace;}
+     
+    </style>
+</head>
+<body>
+    <h2>
+        I'm obsessed with art 🥰
+    </h2>
+
+
+
+
+
+    <img src="./Art____files/doodleart.jpg" alt="Doodle art" width="300">
+
+
+    <h1>
+        Especially <em>
+            Doodle Art 
+        </em>
+        😎 
+        
+    </h1>
+
+
+    <p>
+        <strong>
+            A doodle is a drawing made while a person's attention is otherwise occupied. Doodles are simple drawings that can have concrete representational meaning or may just be composed of random and abstract lines or shapes, generally without ever lifting the drawing device from the paper, in which case it is usually called a scribble.  
+       
+
+        <br>
+
+        <a class="love" href="https://en.wikipedia.org/wiki/Doodle" target="_blank">
+        Read more on Wikipedia
+        </a>
+        </strong>
+    </p>
+
+
+    <div>
+        <strong>
+            Want to get close to Doodle ??? 🤗👇
+        </strong>
+       
+    </div>
+
+    
+
+
+
+    <button class="try-button">
+        <strong>
+            Try Doodling
+        </strong>
+    </button>
+
+    <br>
+    <br>
+
+    <span>
+        code by May Hlyan Moe
+    </span>
+
+    <script>
+        function tryDoodling ()
+        {
+            let name = prompt("What is your name?") ;
+            let email = prompt("May I know your email address ?") ;
+
+            alert("Thanks! " + name + "! We'll be in touch with you😸! Have an artistic day!🎨");
+
+       
+        }
+        let tryButton = document.querySelector(".try-button") ;
+        tryButton.addEventListener("click", tryDoodling);
+    </script>
+
+
+</body></html>
