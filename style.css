@@ -75,11 +75,21 @@ footer {
 }
 
 @media(max-width:576px) {
+    .container {
+        max-width: 350px;
+    }
+    h2 {
+        font-size: 15px;
+    }
     .time {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .container {
         margin: 30px auto;
+    }
+
+    footer {
+        font-size: 10px;
     }
 }
