@@ -1,0 +1,85 @@
+body {
+    background: #C8B6A6;
+}
+
+.container {
+    max-width: 400px;
+    margin: 60px auto;
+    background-color: #ffe8c0;
+    /*background-image: url("https://static.toiimg.com/photo/96283116.jpeg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    */
+    color: #363028;
+    padding: 40px 20px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Cardo', serif;
+    background-color: #ffefd3;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: #1d1a16;
+}
+
+h2 {
+    margin: 0 0 5px;
+    font-size: 28px;
+    font-family: 'Righteous', cursive;
+}
+
+.city {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+}
+
+.city:last-child {
+    border: none;
+}
+
+.time {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: 'Russo One', sans-serif;
+}
+
+.date {
+    opacity: 0.7;
+    font-family: 'Cardo', serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.8);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.all-cities {
+    font-family: 'Russo One', sans-serif;
+}
+
+@media(max-width:576px) {
+    .time {
+        font-size: 30px;
+    }
+
+    .container {
+        margin: 30px auto;
+    }
+}
